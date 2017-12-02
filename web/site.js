@@ -63,7 +63,7 @@ db.users = [];
 db.users.push({
   google_json: {
     id: "111684086248650210604",
-    email: "circleanywhere@gmail.com",
+    email: "stirlab@gmail.com",
     verified_email: true,
     name: "Circle Anywhere",
     given_name: "Circle",
@@ -75,7 +75,7 @@ db.users.push({
   displayName: "Circle Anywhere",
   emails: [
     {
-      value: "circleanywhere@gmail.com",
+      value: "stirlab@gmail.com",
     }
   ],
   id: "111684086248650210604",
