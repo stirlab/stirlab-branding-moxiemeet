@@ -32,12 +32,11 @@ db.sessions.push({
 	description: "Click the button below to join the breakout",
 	shortCode: "alt-session-1",
 	joinCap: 10,
-	handUp: false,
 	adminPeekingIntoSession: "",
 	"session-key": "a7d6e589-f0f9-4290-943a-4f90652ea6df",
 	creationKey: "5908c8",
 	isPermalinkSession: true,
-	"hangout-url": "https://hangouts.google.com/hangouts/_/w4axbux73vcmlixumxrk5hlrcye",
+	"hangout-url": "https://hangouts.google.com/call/2Z0-BphafL9UF7Tk0vrQAAEE",
 });
 db.sessions.push({
 	id: 2,
@@ -45,12 +44,11 @@ db.sessions.push({
 	description: "Click the button below to join the breakout",
 	shortCode: "alt-session-2",
 	joinCap: 10,
-	handUp: false,
 	adminPeekingIntoSession: "",
 	"session-key": "4676dede-49a2-4c92-b94e-7fc0041d7d58",
 	creationKey: "b74271",
 	isPermalinkSession: true,
-	"hangout-url": "https://hangouts.google.com/hangouts/_/vrwapbspangf7oeoga7gta27vee",
+	"hangout-url": "https://hangouts.google.com/call/W6APAw3y78S4g5aalzwqAAEE",
 });
 
 var completedTasks = {
@@ -62,29 +60,29 @@ var completedTasks = {
 db.users = [];
 db.users.push({
   google_json: {
-    id: "111684086248650210604",
+    id: "111617128146365317470",
     email: "stirlab@gmail.com",
     verified_email: true,
-    name: "Circle Anywhere",
-    given_name: "Circle",
-    family_name: "Anywhere",
-    link: "https://plus.google.com/111684086248650210604",
-    picture: "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+    name: "Stirlab Admin",
+    given_name: "Stirlab",
+    family_name: "Admin",
+    link: "https://plus.google.com/111617128146365317470",
+    picture: "https://lh6.googleusercontent.com/-tppIG9gd-_c/AAAAAAAAAAI/AAAAAAAAAAk/2750f2XFJE8/photo.jpg",
     locale: "en",
   },
-  displayName: "Circle Anywhere",
+  displayName: "Stirlab Admin",
   emails: [
     {
       value: "stirlab@gmail.com",
     }
   ],
-  id: "111684086248650210604",
-  link: "https://plus.google.com/111684086248650210604",
+  id: "111617128146365317470",
+  link: "https://plus.google.com/111617128146365317470",
   name: {
-    familyName: "Anywhere",
-    givenName: "Circle",
+    familyName: "Admin",
+    givenName: "Stirlab",
   },
-  picture: "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+  picture: "https://lh6.googleusercontent.com/-tppIG9gd-_c/AAAAAAAAAAI/AAAAAAAAAAk/2750f2XFJE8/photo.jpg",
   provider: "google",
   superuser: true,
   completedTasks: completedTasks,
@@ -92,27 +90,29 @@ db.users.push({
 
 db.users.push({
   google_json: {
-    id: "112349864121259291250",
-    email: "test.1.circleanywhere@gmail.com",
+    id: "111760296970576832787",
+    email: "test.1.stirlab@gmail.com",
     verified_email: true,
-    name: "Participant One",
-    given_name: "Participant",
+    name: "Stirlab One",
+    given_name: "Stirlab",
     family_name: "One",
-    picture: "https://lh4.googleusercontent.com/-ox7q9IPfZhE/AAAAAAAAAAI/AAAAAAAAABE/_-70PCoNQVE/photo.jpg",
+    link: "https://plus.google.com/111760296970576832787",
+    picture: "https://lh6.googleusercontent.com/-Gr_umAFeNJc/AAAAAAAAAAI/AAAAAAAAAB0/uuptY8PreR4/photo.jpg",
     locale: "en"
   },
-  displayName: "Participant One",
+  displayName: "Stirlab One",
   emails: [
     {
-      value: "test.1.circleanywhere@gmail.com"
+      value: "test.1.stirlab@gmail.com"
     }
   ],
-  id: "112349864121259291250",
+  id: "111760296970576832787",
+  link: "https://plus.google.com/111760296970576832787",
   name: {
     familyName: "One",
-    givenName: "Participant"
+    givenName: "Stirlab"
   },
-  picture: "https://lh4.googleusercontent.com/-ox7q9IPfZhE/AAAAAAAAAAI/AAAAAAAAABE/_-70PCoNQVE/photo.jpg",
+  picture: "https://lh6.googleusercontent.com/-Gr_umAFeNJc/AAAAAAAAAAI/AAAAAAAAAB0/uuptY8PreR4/photo.jpg",
   provider: "google",
   perms: {
     joinEvents: true,
@@ -123,27 +123,29 @@ db.users.push({
 
 db.users.push({
   google_json: {
-    id: "106242390178717671247",
-    email: "test.2.circleanywhere@gmail.com",
+    id: "100437701065407314211",
+    email: "test.2.stirlab@gmail.com",
     verified_email: true,
-    name: "Participant Two",
-    given_name: "Participant",
+    name: "Stirlab Two",
+    given_name: "Stirlab",
     family_name: "Two",
-    picture: "https://lh5.googleusercontent.com/-fUtKJ5vSdYc/AAAAAAAAAAI/AAAAAAAAAA0/QU6Gp0xdFOM/photo.jpg",
+    link: "https://plus.google.com/100437701065407314211",
+    picture: "https://lh4.googleusercontent.com/-f8sK7alXHFE/AAAAAAAAAAI/AAAAAAAAABw/vxFvLwtRyGY/photo.jpg",
     locale: "en"
   },
-  displayName: "Participant Two",
+  displayName: "Stirlab Two",
   emails: [
     {
-      value: "test.2.circleanywhere@gmail.com"
+      value: "test.2.stirlab@gmail.com"
     }
   ],
-  id: "106242390178717671247",
+  id: "100437701065407314211",
+  link: "https://plus.google.com/100437701065407314211",
   name: {
     familyName: "Two",
-    givenName: "Participant"
+    givenName: "Stirlab"
   },
-  picture: "https://lh5.googleusercontent.com/-fUtKJ5vSdYc/AAAAAAAAAAI/AAAAAAAAAA0/QU6Gp0xdFOM/photo.jpg",
+  picture: "https://lh4.googleusercontent.com/-f8sK7alXHFE/AAAAAAAAAAI/AAAAAAAAABw/vxFvLwtRyGY/photo.jpg",
   provider: "google",
   perms: {
     joinEvents: true,
@@ -165,7 +167,7 @@ for (var num = 0; num <= 59; num++) {
     id: id,
     displayName: "Test User " + num,
     emails: [{
-      value: "test.user." + num + "@circleanywhere.com",
+      value: "test.user." + num + "@stirlab.net",
     }],
     picture: "https://connect.moxiemeet.com/public/img/custom/test-user-" + num + "-avatar.jpg",
     perms: {
@@ -179,7 +181,7 @@ for (var num = 0; num <= 59; num++) {
     },
     google_json: {
       id: id,
-      email: "test.user." + num + "@circleanywhere.com",
+      email: "test.user." + num + "@stirlab.net",
       verified_email: true,
       name: "Test User " + num,
       given_name: "Test",
