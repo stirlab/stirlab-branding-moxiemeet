@@ -26,30 +26,6 @@ var db = {};
 db.events = [];
 
 db.sessions = [];
-db.sessions.push({
-	id: 1,
-	title: "Alternate breakout #1",
-	description: "Click the button below to join the breakout",
-	shortCode: "alt-session-1",
-	joinCap: 10,
-	adminPeekingIntoSession: "",
-	"session-key": "a7d6e589-f0f9-4290-943a-4f90652ea6df",
-	creationKey: "5908c8",
-	isPermalinkSession: true,
-	"hangout-url": "https://hangouts.google.com/call/2Z0-BphafL9UF7Tk0vrQAAEE",
-});
-db.sessions.push({
-	id: 2,
-	title: "Alternate breakout #2",
-	description: "Click the button below to join the breakout",
-	shortCode: "alt-session-2",
-	joinCap: 10,
-	adminPeekingIntoSession: "",
-	"session-key": "4676dede-49a2-4c92-b94e-7fc0041d7d58",
-	creationKey: "b74271",
-	isPermalinkSession: true,
-	"hangout-url": "https://hangouts.google.com/call/W6APAw3y78S4g5aalzwqAAEE",
-});
 
 var completedTasks = {
    setDisplayName: 1496442154,
