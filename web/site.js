@@ -7,6 +7,7 @@ config.termsUrl = 'http://moxiemeet.com/terms';
 config.privacyUrl = 'http://moxiemeet.com/privacy';
 config.supportUrl = 'http://moxiemeet.com/support';
 config.faqUrl = 'http://moxiemeet.com/faq';
+config.techReportUrl = null;
 
 config.twitterUsername = 'ThisOldPlant';
 
