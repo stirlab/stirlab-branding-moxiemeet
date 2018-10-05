@@ -24,10 +24,6 @@ module.exports.config = config;
 
 var db = {};
 
-db.events = [];
-
-db.sessions = [];
-
 var completedTasks = {
    setDisplayName: 1496442154,
    connectivityCheck: 1496442154,
@@ -36,7 +32,7 @@ var completedTasks = {
 
 db.users = [];
 db.users.push({
-  google_json: {
+  googleJson: {
     id: "111617128146365317470",
     email: "stirlab@gmail.com",
     verified_email: true,
@@ -48,25 +44,20 @@ db.users.push({
     locale: "en",
   },
   displayName: "Stirlab Admin",
-  emails: [
-    {
-      value: "stirlab@gmail.com",
-    }
-  ],
-  id: "111617128146365317470",
+  email: "stirlab@gmail.com",
+  googleUserId: "111617128146365317470",
   link: "https://plus.google.com/111617128146365317470",
-  name: {
-    familyName: "Admin",
-    givenName: "Stirlab",
-  },
   picture: "https://lh6.googleusercontent.com/-tppIG9gd-_c/AAAAAAAAAAI/AAAAAAAAAAk/2750f2XFJE8/photo.jpg",
-  provider: "google",
+  perms: {
+    memberOnce: true,
+  },
   superuser: true,
   completedTasks: completedTasks,
+  configuration: {},
 });
 
 db.users.push({
-  google_json: {
+  googleJson: {
     id: "111760296970576832787",
     email: "test.1.stirlab@gmail.com",
     verified_email: true,
@@ -78,28 +69,20 @@ db.users.push({
     locale: "en"
   },
   displayName: "Stirlab One",
-  emails: [
-    {
-      value: "test.1.stirlab@gmail.com"
-    }
-  ],
-  id: "111760296970576832787",
+  email: "test.1.stirlab@gmail.com",
+  googleUserId: "111760296970576832787",
   link: "https://plus.google.com/111760296970576832787",
-  name: {
-    familyName: "One",
-    givenName: "Stirlab"
-  },
   picture: "https://lh6.googleusercontent.com/-Gr_umAFeNJc/AAAAAAAAAAI/AAAAAAAAAB0/uuptY8PreR4/photo.jpg",
-  provider: "google",
   perms: {
     joinEvents: true,
     memberOnce: true,
   },
   completedTasks: completedTasks,
+  configuration: {},
 });
 
 db.users.push({
-  google_json: {
+  googleJson: {
     id: "100437701065407314211",
     email: "test.2.stirlab@gmail.com",
     verified_email: true,
@@ -111,24 +94,16 @@ db.users.push({
     locale: "en"
   },
   displayName: "Stirlab Two",
-  emails: [
-    {
-      value: "test.2.stirlab@gmail.com"
-    }
-  ],
-  id: "100437701065407314211",
+  email: "test.2.stirlab@gmail.com",
+  googleUserId: "100437701065407314211",
   link: "https://plus.google.com/100437701065407314211",
-  name: {
-    familyName: "Two",
-    givenName: "Stirlab"
-  },
   picture: "https://lh4.googleusercontent.com/-f8sK7alXHFE/AAAAAAAAAAI/AAAAAAAAABw/vxFvLwtRyGY/photo.jpg",
-  provider: "google",
   perms: {
     joinEvents: true,
     memberOnce: true,
   },
   completedTasks: completedTasks,
+  configuration: {},
 });
 
 for (var num = 0; num <= 59; num++) {
@@ -141,22 +116,15 @@ for (var num = 0; num <= 59; num++) {
   }
   var id = prefix + String(num);
   db.users.push({
-    id: id,
+    googleUserId: id,
     displayName: "Test User " + num,
-    emails: [{
-      value: "test.user." + num + "@stirlab.net",
-    }],
+    email: "test.user." + num + "@stirlab.net",
     picture: "https://connect.moxiemeet.com/public/img/custom/test-user-" + num + "-avatar.jpg",
     perms: {
       joinEvents: true,
       memberOnce: true,
     },
-    provider: "google",
-    name: {
-      familyName: "User " + num,
-      givenName: "Test",
-    },
-    google_json: {
+    googleJson: {
       id: id,
       email: "test.user." + num + "@stirlab.net",
       verified_email: true,
@@ -167,6 +135,7 @@ for (var num = 0; num <= 59; num++) {
       locale: "en",
     },
     completedTasks: completedTasks,
+    configuration: {},
   });
 }
 
