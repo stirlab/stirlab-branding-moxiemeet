@@ -1,12 +1,14 @@
 var config = {};
 
 config.name = 'MoxieMeet';
+config.domain="moxiemeet.com"
 
-config.mainSiteUrl = 'http://moxiemeet.com';
-config.termsUrl = 'http://moxiemeet.com/terms';
-config.privacyUrl = 'http://moxiemeet.com/privacy';
-config.supportUrl = 'http://moxiemeet.com/support';
-config.faqUrl = 'http://moxiemeet.com/faq';
+config.connectSiteUrl="https://connect.moxiemeet.com"
+config.mainSiteUrl = 'https://moxiemeet.com';
+config.termsUrl = 'https://moxiemeet.com/terms';
+config.privacyUrl = 'https://moxiemeet.com/privacy';
+config.supportUrl = 'https://moxiemeet.com/support';
+config.faqUrl = 'https://moxiemeet.com/faq';
 config.techReportUrl = null;
 
 config.twitterUsername = 'ThisOldPlant';
@@ -17,6 +19,15 @@ config.email.event.register = 'mm-event-register';
 config.email.event.registerInvite = 'mm-event-register-invite';
 config.email.event.registerMessage = 'mm-event-register-message';
 config.email.event.facilitatorInvite = 'mm-event-facilitator-invite';
+config.email.templateVariables = {};
+config.email.templateVariables.name = config.name;
+config.email.templateVariables.domain = config.domain;
+config.email.templateVariables.mainSiteUrl = config.mainSiteUrl;
+config.email.templateVariables.connectSiteUrl = config.connectSiteUrl;
+config.email.templateVariables.supportEmail = 'support@moxiemeet.com'
+config.email.templateVariables.backgroundColor = '#FFFFFF';
+config.email.templateVariables.accentColor = '#0d47a1';
+config.email.templateVariables.accentColorDark = '#0b3f8e';
 
 config.template = {};
 
@@ -119,7 +130,7 @@ for (var num = 0; num <= 59; num++) {
     googleUserId: id,
     displayName: "Test User " + num,
     email: "test.user." + num + "@stirlab.net",
-    picture: "https://connect.moxiemeet.com/public/img/custom/test-user-" + num + "-avatar.jpg",
+    picture: config.connectSiteUrl + "/public/img/custom/test-user-" + num + "-avatar.jpg",
     perms: {
       joinEvents: true,
       memberOnce: true,
@@ -131,7 +142,7 @@ for (var num = 0; num <= 59; num++) {
       name: "Test User " + num,
       given_name: "Test",
       family_name: "User " + num,
-      picture: "https://connect.moxiemeet.com/public/img/custom/test-user-" + num + "-avatar.jpg",
+      picture: config.connectSiteUrl + "/public/img/custom/test-user-" + num + "-avatar.jpg",
       locale: "en",
     },
     completedTasks: completedTasks,
